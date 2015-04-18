@@ -1,0 +1,8 @@
+      CallJsonRpc("Meteo.GetRainInfo",
+        {},
+        function(oResult) {
+          console.log("OK : ", oResult);
+          },
+        function(oResult) {
+          console.log("Error : ", oResult.response);
+          });

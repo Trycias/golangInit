@@ -1,0 +1,13 @@
+ide 
+  sublime : go sublime (sublime est un ide et il y a un sur packquage a installé pour les style (accolade) et c'est go sublime ou l'inverse)
+  lime
+  atom
+
+framework
+  beego
+CMS monsti
+
+container docker
+
+thrift : générator pour rpc (facebok)
+  https://thrift.apache.org/

@@ -1,0 +1,14 @@
+<html>
+<script src="json-rpc.js"></script>
+<script type="text/javascript">
+      CallJsonRpc("Meteo.GetRainInfo",
+        {},
+        function(oResult) {
+          console.log("OK : ", oResult);
+          },
+        function(oResult) {
+          console.log("Error : ", oResult.response);
+          });
+
+</script>
+</html>
